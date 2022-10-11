@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		293BC28A28F50C9A00B0BF2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293BC28928F50C9A00B0BF2B /* AppDelegate.swift */; };
+		293BC28C28F50C9A00B0BF2B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293BC28B28F50C9A00B0BF2B /* SceneDelegate.swift */; };
+		293BC28E28F50C9A00B0BF2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293BC28D28F50C9A00B0BF2B /* ViewController.swift */; };
+		293BC29128F50C9A00B0BF2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 293BC28F28F50C9A00B0BF2B /* Main.storyboard */; };
+		293BC29328F50C9A00B0BF2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 293BC29228F50C9A00B0BF2B /* Assets.xcassets */; };
+		293BC29628F50C9A00B0BF2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 293BC29428F50C9A00B0BF2B /* LaunchScreen.storyboard */; };
+		293BC2A128F50C9A00B0BF2B /* SmackChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293BC2A028F50C9A00B0BF2B /* SmackChatTests.swift */; };
+		293BC2AB28F50C9A00B0BF2B /* SmackChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293BC2AA28F50C9A00B0BF2B /* SmackChatUITests.swift */; };
+		293BC2AD28F50C9A00B0BF2B /* SmackChatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293BC2AC28F50C9A00B0BF2B /* SmackChatUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		293BC29D28F50C9A00B0BF2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 293BC27E28F50C9900B0BF2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 293BC28528F50C9A00B0BF2B;
+			remoteInfo = SmackChat;
+		};
+		293BC2A728F50C9A00B0BF2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 293BC27E28F50C9900B0BF2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 293BC28528F50C9A00B0BF2B;
+			remoteInfo = SmackChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		293BC28628F50C9A00B0BF2B /* SmackChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmackChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		293BC28928F50C9A00B0BF2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		293BC28B28F50C9A00B0BF2B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		293BC28D28F50C9A00B0BF2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		293BC29028F50C9A00B0BF2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		293BC29228F50C9A00B0BF2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		293BC29528F50C9A00B0BF2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		293BC29728F50C9A00B0BF2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		293BC29C28F50C9A00B0BF2B /* SmackChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmackChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		293BC2A028F50C9A00B0BF2B /* SmackChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmackChatTests.swift; sourceTree = "<group>"; };
+		293BC2A628F50C9A00B0BF2B /* SmackChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmackChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		293BC2AA28F50C9A00B0BF2B /* SmackChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmackChatUITests.swift; sourceTree = "<group>"; };
+		293BC2AC28F50C9A00B0BF2B /* SmackChatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmackChatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		293BC28328F50C9A00B0BF2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		293BC29928F50C9A00B0BF2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		293BC2A328F50C9A00B0BF2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		293BC27D28F50C9900B0BF2B = {
+			isa = PBXGroup;
+			children = (
+				293BC28828F50C9A00B0BF2B /* SmackChat */,
+				293BC29F28F50C9A00B0BF2B /* SmackChatTests */,
+				293BC2A928F50C9A00B0BF2B /* SmackChatUITests */,
+				293BC28728F50C9A00B0BF2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		293BC28728F50C9A00B0BF2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				293BC28628F50C9A00B0BF2B /* SmackChat.app */,
+				293BC29C28F50C9A00B0BF2B /* SmackChatTests.xctest */,
+				293BC2A628F50C9A00B0BF2B /* SmackChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		293BC28828F50C9A00B0BF2B /* SmackChat */ = {
+			isa = PBXGroup;
+			children = (
+				293BC28928F50C9A00B0BF2B /* AppDelegate.swift */,
+				293BC28B28F50C9A00B0BF2B /* SceneDelegate.swift */,
+				293BC28D28F50C9A00B0BF2B /* ViewController.swift */,
+				293BC28F28F50C9A00B0BF2B /* Main.storyboard */,
+				293BC29228F50C9A00B0BF2B /* Assets.xcassets */,
+				293BC29428F50C9A00B0BF2B /* LaunchScreen.storyboard */,
+				293BC29728F50C9A00B0BF2B /* Info.plist */,
+			);
+			path = SmackChat;
+			sourceTree = "<group>";
+		};
+		293BC29F28F50C9A00B0BF2B /* SmackChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				293BC2A028F50C9A00B0BF2B /* SmackChatTests.swift */,
+			);
+			path = SmackChatTests;
+			sourceTree = "<group>";
+		};
+		293BC2A928F50C9A00B0BF2B /* SmackChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				293BC2AA28F50C9A00B0BF2B /* SmackChatUITests.swift */,
+				293BC2AC28F50C9A00B0BF2B /* SmackChatUITestsLaunchTests.swift */,
+			);
+			path = SmackChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		293BC28528F50C9A00B0BF2B /* SmackChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 293BC2B028F50C9A00B0BF2B /* Build configuration list for PBXNativeTarget "SmackChat" */;
+			buildPhases = (
+				293BC28228F50C9A00B0BF2B /* Sources */,
+				293BC28328F50C9A00B0BF2B /* Frameworks */,
+				293BC28428F50C9A00B0BF2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmackChat;
+			productName = SmackChat;
+			productReference = 293BC28628F50C9A00B0BF2B /* SmackChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		293BC29B28F50C9A00B0BF2B /* SmackChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 293BC2B328F50C9A00B0BF2B /* Build configuration list for PBXNativeTarget "SmackChatTests" */;
+			buildPhases = (
+				293BC29828F50C9A00B0BF2B /* Sources */,
+				293BC29928F50C9A00B0BF2B /* Frameworks */,
+				293BC29A28F50C9A00B0BF2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				293BC29E28F50C9A00B0BF2B /* PBXTargetDependency */,
+			);
+			name = SmackChatTests;
+			productName = SmackChatTests;
+			productReference = 293BC29C28F50C9A00B0BF2B /* SmackChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		293BC2A528F50C9A00B0BF2B /* SmackChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 293BC2B628F50C9A00B0BF2B /* Build configuration list for PBXNativeTarget "SmackChatUITests" */;
+			buildPhases = (
+				293BC2A228F50C9A00B0BF2B /* Sources */,
+				293BC2A328F50C9A00B0BF2B /* Frameworks */,
+				293BC2A428F50C9A00B0BF2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				293BC2A828F50C9A00B0BF2B /* PBXTargetDependency */,
+			);
+			name = SmackChatUITests;
+			productName = SmackChatUITests;
+			productReference = 293BC2A628F50C9A00B0BF2B /* SmackChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		293BC27E28F50C9900B0BF2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					293BC28528F50C9A00B0BF2B = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					293BC29B28F50C9A00B0BF2B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 293BC28528F50C9A00B0BF2B;
+					};
+					293BC2A528F50C9A00B0BF2B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 293BC28528F50C9A00B0BF2B;
+					};
+				};
+			};
+			buildConfigurationList = 293BC28128F50C9900B0BF2B /* Build configuration list for PBXProject "SmackChat" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 293BC27D28F50C9900B0BF2B;
+			productRefGroup = 293BC28728F50C9A00B0BF2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				293BC28528F50C9A00B0BF2B /* SmackChat */,
+				293BC29B28F50C9A00B0BF2B /* SmackChatTests */,
+				293BC2A528F50C9A00B0BF2B /* SmackChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		293BC28428F50C9A00B0BF2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293BC29628F50C9A00B0BF2B /* LaunchScreen.storyboard in Resources */,
+				293BC29328F50C9A00B0BF2B /* Assets.xcassets in Resources */,
+				293BC29128F50C9A00B0BF2B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		293BC29A28F50C9A00B0BF2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		293BC2A428F50C9A00B0BF2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		293BC28228F50C9A00B0BF2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293BC28E28F50C9A00B0BF2B /* ViewController.swift in Sources */,
+				293BC28A28F50C9A00B0BF2B /* AppDelegate.swift in Sources */,
+				293BC28C28F50C9A00B0BF2B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		293BC29828F50C9A00B0BF2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293BC2A128F50C9A00B0BF2B /* SmackChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		293BC2A228F50C9A00B0BF2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293BC2AD28F50C9A00B0BF2B /* SmackChatUITestsLaunchTests.swift in Sources */,
+				293BC2AB28F50C9A00B0BF2B /* SmackChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		293BC29E28F50C9A00B0BF2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 293BC28528F50C9A00B0BF2B /* SmackChat */;
+			targetProxy = 293BC29D28F50C9A00B0BF2B /* PBXContainerItemProxy */;
+		};
+		293BC2A828F50C9A00B0BF2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 293BC28528F50C9A00B0BF2B /* SmackChat */;
+			targetProxy = 293BC2A728F50C9A00B0BF2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		293BC28F28F50C9A00B0BF2B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				293BC29028F50C9A00B0BF2B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		293BC29428F50C9A00B0BF2B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				293BC29528F50C9A00B0BF2B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		293BC2AE28F50C9A00B0BF2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		293BC2AF28F50C9A00B0BF2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		293BC2B128F50C9A00B0BF2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8XL3CTDGG8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmackChat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.asset-ryskul.SmackChat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		293BC2B228F50C9A00B0BF2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8XL3CTDGG8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmackChat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.asset-ryskul.SmackChat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		293BC2B428F50C9A00B0BF2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8XL3CTDGG8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.asset-ryskul.SmackChatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmackChat.app/SmackChat";
+			};
+			name = Debug;
+		};
+		293BC2B528F50C9A00B0BF2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8XL3CTDGG8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.asset-ryskul.SmackChatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmackChat.app/SmackChat";
+			};
+			name = Release;
+		};
+		293BC2B728F50C9A00B0BF2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8XL3CTDGG8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.asset-ryskul.SmackChatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmackChat;
+			};
+			name = Debug;
+		};
+		293BC2B828F50C9A00B0BF2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8XL3CTDGG8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.asset-ryskul.SmackChatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmackChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		293BC28128F50C9900B0BF2B /* Build configuration list for PBXProject "SmackChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293BC2AE28F50C9A00B0BF2B /* Debug */,
+				293BC2AF28F50C9A00B0BF2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		293BC2B028F50C9A00B0BF2B /* Build configuration list for PBXNativeTarget "SmackChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293BC2B128F50C9A00B0BF2B /* Debug */,
+				293BC2B228F50C9A00B0BF2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		293BC2B328F50C9A00B0BF2B /* Build configuration list for PBXNativeTarget "SmackChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293BC2B428F50C9A00B0BF2B /* Debug */,
+				293BC2B528F50C9A00B0BF2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		293BC2B628F50C9A00B0BF2B /* Build configuration list for PBXNativeTarget "SmackChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293BC2B728F50C9A00B0BF2B /* Debug */,
+				293BC2B828F50C9A00B0BF2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 293BC27E28F50C9900B0BF2B /* Project object */;
+}
