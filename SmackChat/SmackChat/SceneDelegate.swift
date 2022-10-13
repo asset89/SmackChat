@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SceneDelegate: UIResponder, UIWindowSceneDelegate {
+class SceneDelegate: UIResponder, UIWindowSceneDelegate, SWRevealViewControllerDelegate {
 
     var window: UIWindow?
 
@@ -15,9 +15,21 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let scene = (scene as? UIWindowScene) else { return }
         let window = UIWindow(windowScene: scene)
-        let viewController = LoginViewController()
-        let navigation = UINavigationController(rootViewController: viewController)
-        window.rootViewController = navigation
+        
+        let revealController = SWRevealViewController()
+
+        let channelVC = ChannelViewController()
+        let chatVC = ChatViewController()
+
+        let frontNavigationController = UINavigationController(rootViewController: chatVC)
+        let rearNavigationController = UINavigationController(rootViewController: channelVC)
+
+        revealController.frontViewController = frontNavigationController
+        revealController.rearViewController = rearNavigationController
+        revealController.delegate = self
+
+        window.rootViewController = revealController
+        
         self.window = window
         window.makeKeyAndVisible()
     }

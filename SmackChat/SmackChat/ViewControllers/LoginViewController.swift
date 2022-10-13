@@ -79,9 +79,8 @@ class LoginViewController: UIViewController {
         horizontalStack.addArrangedSubview(logoImageView)
         horizontalStack.addArrangedSubview(logoLabel)
         
-        
-        
     }
+    
     func setupLayout() {
         
         loginContentView.snp.makeConstraints { make in
