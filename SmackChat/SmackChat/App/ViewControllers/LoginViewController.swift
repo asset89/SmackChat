@@ -44,7 +44,7 @@ class LoginViewController: UIViewController {
     
     private let logoLabel: UILabel = {
         let label = UILabel()
-        label.text = "SmackChat"
+        label.text = "Smack Chat"
         label.textAlignment = .center
         label.font = UIFont(name: Constants.SMACK_FONT, size: 0)
         label.font = UIFont.boldSystemFont(ofSize: 22)

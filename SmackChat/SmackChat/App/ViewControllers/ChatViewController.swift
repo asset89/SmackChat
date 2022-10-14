@@ -19,8 +19,8 @@ class ChatViewController: UIViewController {
         return view
     }()
     
-    private let topView: UIView = {
-        let view = UIView()
+    private let topView: GradientView = {
+        let view = GradientView()
         view.isUserInteractionEnabled = true
         view.backgroundColor = Constants.SMACK_THEME_COLOR
         view.translatesAutoresizingMaskIntoConstraints = false
@@ -36,7 +36,7 @@ class ChatViewController: UIViewController {
     
     private let topBarLabel: UILabel = {
         let label = UILabel()
-        label.text = "SmackChat"
+        label.text = "Smack Chat"
         label.textAlignment = .center
         label.font = UIFont(name: Constants.SMACK_FONT, size: 0)
         label.font = UIFont.boldSystemFont(ofSize: 20)
